@@ -3,7 +3,6 @@
 
  class Sentence 
 
- # self.sen_tence because self marks sent_ence as a class method, which can be called outside of the class
   def self.sent_ence(arg)
 
   #The string is first converted to an array of words before we figure out the amount of words are present in the sentence
