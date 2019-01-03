@@ -9,7 +9,7 @@
     sent_arr = arg.split.each_slice(1).map{|a|a.join ' '}
 
   #Once the string is converted to an array, we find and display the word with maximum letters present. 
-    sent_long_word = sent_arr.max_by {|x| x.length }
+    sent_long_word = sent_arr.max_by {|a| a.length }
 
 #Amount of words and the longest word is returned
     return "This sentence has #{sent_arr.length} words and the longest word is #{sent_long_word}." 
